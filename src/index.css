@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gray-*: initial;
+  --color-gray: #2e3a3c;
+  --color-med-gray: #1e2b2d;
+  --color-dark-gray: #1b2629;
+}
+
+@font-face {
+  font-family: 'Balatro';
+  src: url("../m6x11.ttf");
+}
+
+:root {
+  font-family: Balatro, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.panel-shadow {
+  box-shadow: 0px 5px color-mix(in srgb, #0068ad, #000);
+}
