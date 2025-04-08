@@ -12,6 +12,11 @@
   src: url("../m6x11.ttf");
 }
 
+@font-face {
+  font-family: 'Card';
+  src: url("../jokerfontbalatro.ttf");
+}
+
 :root {
   font-family: Balatro, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -24,3 +29,19 @@
 .panel-shadow {
   box-shadow: 0px 5px color-mix(in srgb, #0068ad, #000);
 }
+
+p {
+  margin-bottom: -12px;
+  text-shadow: 0px 4px rgba(0, 0, 0, 0.5);
+}
+
+.card-text {
+  font-size: 20px;
+  font-family: Card;
+  text-shadow: none;
+}
+
+.spade {
+  color: #3b4367;
+}
+
