@@ -11,14 +11,16 @@ function App() {
       <Sidebar/>
       <div className="w-full h-full px-8 py-16">
         <div className="w-full h-full gap-4 grid grid-rows-[250px_1fr_250px]">
-          <div className="bg-black w-full rounded-2xl opacity-20">
+          <div className="bg-black/20 w-full rounded-2xl">
 
           </div>
           <div>
-          <Card></Card>
-          </div>
-          <div className="bg-black w-full rounded-2xl opacity-20">
             
+          </div>
+          <div className="bg-black/20 w-full rounded-2xl flex gap-6 items-center px-4">
+            <Card></Card>
+            <Card></Card>
+            <Card></Card>
           </div>
         </div>
       </div>
